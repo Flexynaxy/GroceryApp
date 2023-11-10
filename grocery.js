@@ -21,7 +21,7 @@ function loadcontent() {
 function getUsername() {
     let usernameLs = localStorage.getItem('username')
     if (!usernameLs) {
-        location.href = 'login.html'
+        location.href = 'index.html'
     }
 
     username.innerText = usernameLs
