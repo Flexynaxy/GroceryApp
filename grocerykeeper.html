@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup-GroceryApp</title>
+
+    <link rel="stylesheet" href="bootstrap5.0/css/bootstrap.css" />
+    <link rel="stylesheet" href="fontawesomeweb/css/all.css" />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="row">
+        <div
+          class="usergreet text-right p-5"
+          style="
+            text-align: right;
+            background-color: rgb(7, 0, 59);
+            color: white;
+          "
+        >
+          <span id="username"></span> &nbsp;
+          <a href="index.html">
+            <button class="btn btn-danger btn-sm">logout</button></a
+          >
+        </div>
+        
+        <div class="card p-5">
+            <form>
+          <div class="form-group mb-3"> 
+            <input
+              type="text"
+              placeholder=" enter greocery to buy"
+              class="form-control" id="ginput"
+            />
+          </div>
+          <div class="form-group mb-3">
+            <input type="submit" value="saved" class="btn-primary">
+          </div>  
+          </form>
+            </div>
+
+        <div class="card mt-5">
+          <div class="card-header"><h3>Grocery list</h3></div>
+
+          <div class="card-title py-3">
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="search grocery"
+                id="searchg"
+              />
+            </div>
+          </div>
+          <div class="card-body">
+            <ul class="list-group list-group-numbered">
+
+            </ul>
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-dark" id="clearbtn">clear</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div
+        class="usergreet text-right p-5"
+        style="
+          text-align: center;
+          background-color: rgb(7, 0, 59);
+          color: white;
+        "
+      >
+        &copy; 2023 Nora|| All right Reserved
+      </div>
+    </footer>
+    <script src="bootstrap5.0/js/bootstrap.js"></script>
+
+    <script src="fontawesomeweb/js/all.js"></script>
+    <script src="grocery.js"></script>
+  </body>
+</html>

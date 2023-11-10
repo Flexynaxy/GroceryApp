@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login-GroceryApp</title>
+
+    <link rel="stylesheet" href="bootstrap5.0/css/bootstrap.css" />
+    <link rel="stylesheet" href="fontawesomeweb/css/all.css" />
+  </head>
+  <body>
+    <div class="container mt-5" style="width: 50%">
+      <div class="row">
+        <div class="card text-center p-3">
+          <h2 class="card-header">Grocery Keeper</h2>
+
+          <div class="card-body">
+            <div class="form-group mb-3">
+              <input
+                type="email"
+                placeholder="Enter Email"
+                id="lemail"
+                class="form-control"
+              />
+            </div>
+
+            <div class="form-group mb-3">
+              <input
+                type="password"
+                placeholder="Enter pass word"
+                id="lpassword"
+                class="form-control"
+              />
+            </div>
+          </div>
+          <div id="msg"></div>
+          <button class="btn btn-primary btn-md" id="loginbtn">Login</button>
+
+          <p>Not A user <a href="signup.html"> Signup</a></p>
+        </div>
+      </div>
+    </div>
+    <script src="bootstrap5.0/js/bootstrap.js"></script>
+
+    <script src="fontawesomeweb/js/all.js"></script>
+    <script src="login.js"></script>
+  </body>
+</html>
