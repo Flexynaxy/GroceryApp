@@ -39,7 +39,7 @@ function LoginUser() {
         msg.innerHTML = "<p class='alert alert-danger'> email or password not correct </p>"
     } else {
         alert("Login succesful")
-        location.href = 'gracerykeeper.html'
+        location.href = 'grocerykeeper.html'
     }
 
 
